@@ -768,7 +768,7 @@ nav {
   }
 
   .fourth-anch {
-    margin: 0 auto;
+    margin: 0 auto 25px;
   }
 
   .fifth-row {
@@ -791,7 +791,7 @@ nav {
     padding: 20px 0;
     background-color: #f7c7e1;
     position: absolute;
-    top: 90px;
+    top: 83px;
     left: -15px;
     right: -15px;
     animation: slide-in 1200ms forwards ease-in;
@@ -832,22 +832,12 @@ nav {
   }
 
   .left-first>h1 {
-    text-align: center;
     font-size: 57px;
     line-height: 60px;
   }
 
-  .left-first>p {
-    text-align: center;
-  }
-
   .first-anch {
-    justify-content: center;
     margin-bottom: 110px;
-  }
-
-  .first-bottom-logos {
-    justify-content: center;
   }
 
   .card-first-section {
@@ -887,8 +877,9 @@ nav {
     right: 0;
     gap: 12px;
   }
-  .fourth-banner{
-        gap: 50px;
+
+  .fourth-banner {
+    gap: 50px;
   }
 
   .right-first {
@@ -914,10 +905,9 @@ nav {
     align-items: center;
   }
 
-  /* .third-bottom img {
-    max-width: 135px;
-    max-height: 87px;
-  } */
+  .third-banner {
+    min-height: 352px;
+  }
 
   .cards div img {
     max-width: 135px;
@@ -935,6 +925,7 @@ nav {
 
   .fifth-section {
     min-height: 678px;
+    padding-top: 47px;
   }
 
   .fifth-row {
@@ -988,8 +979,17 @@ nav {
 }
 
 @media screen and (max-width: 426px) {
+  .nav-section {
+    padding: 10px 0;
+  }
+
+  .nav-left {
+    top: 65px;
+  }
+
   .anch-top-car {
     padding: 7px 9px;
+    top: 118px;
   }
 
   .anch-top-car>span {
@@ -1003,6 +1003,7 @@ nav {
 
   .anch-top-home {
     padding: 7px 9px;
+    top: 160px;
   }
 
   .anch-top-home>span {
@@ -1015,7 +1016,7 @@ nav {
   }
 
   .left-first {
-    padding-top: 110px;
+    padding-top: 78px;
   }
 
   .left-first>h1 {
@@ -1078,17 +1079,13 @@ nav {
   } */
 
   .right-first {
-    min-height: 389px;
+    min-height: 337px;
   }
 
   .end-block-center>span {
     width: 100%;
-    text-align: center;
   }
 
-  .end-block-center>ul {
-    text-align: center;
-  }
 
   .seventh-section {
     min-height: 365px;
@@ -1134,6 +1131,5 @@ nav {
 
   .end-block-left>p {
     font-size: 12px;
-    text-align: center;
   }
 }
